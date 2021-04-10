@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbg Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color: #1f1f1f;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar_logo{
+    background: #1f1f1f;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    color: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.navbar_menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar_item{
+    height: 80px;
+}
+
+.navbar_links{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    text-decoration: none;
+    height: 100%;
+}
+
+.navbar_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 50%;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 20px 20px;
+    height: 100%;
+    width: 25%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #833ab4;
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    color: #fff;
+    transition: all 0.3s ease;
+    
+
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.banner{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.under{
+    background-color: black;
+    color : white;
+    text-align: center;
+}
+
+.biggerFont{
+    font-size:xx-large;
+    text-align:center;
+}
+
+.smallFont{
+    font-size: small;
+    text-align: center;
+}
+
+.middleFont{
+    font-size: x-large;
+    text-align: center;
+}
+
+.stronaGlowna{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: px 4px #7c7c7c;
+}
+
+.centerText{
+    text-align: center;
+}
+
+.problemSkoczka{
+    font-size:small;
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.ruchskoczkaSzachy{
+    width: 100px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: -55px;
+}
+
+img.animated-gif{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+a.blue{
+    color: green;
+    text-decoration: none;
+    text-align: center;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.textColor{
+    text-decoration: #fd1d1d;
+}
+
+.img-with-text { 
+    text-align: justify; 
+    width: [width of img]; 
+} 
+ 
+.img-with-text img { 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.titleRozdzial{
+    text-align: center;
+    width: 400px;
+    font-size: xx-large;
+    margin-right: 1200px;
+    margin-top: -300px;
+    margin-left: 140px;
+}
+
+.item{
+    width:400px;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    margin-right: auto;
+    margin-left: 1400px;
+  }
+  #toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: inline-block;
+    font-size: 95%;
+    margin-top: 40em;
+    padding: 20px;
+    width: 200px;
+    align-content: left;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+.paragraphMargin{
+    margin-left: 195px;
+    margin-top:25px;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+
+.zamknietaDroga{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-top: -332px;
+    margin-right: 500px;
+}
+
+.zamknietaDrogaTxt{
+    font-size:small;
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: 500px;
+    text-align: center;
+}
+
+
+.strzalkaLewo{
+    font-size:small;
+    width: 20px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-top: -370px;
+    margin-right: 330px;
+    text-align: center;
+}
