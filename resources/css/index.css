@@ -228,12 +228,12 @@ a.blue{
     list-style: outside none none !important;
 }
 
-.zamknietaDroga{
+.zamknietaDroga {
     width: 300px;
     height: auto;
     display: block;
     margin-left: auto;
-    margin-top: -415px;
+    margin-top: -495px;
     margin-right: 500px;
 }
 
@@ -260,12 +260,12 @@ a.blue{
     text-align: center;
 }
 
-.trzyxtrzyskoczek{
+.trzyxtrzyskoczek {
     width: 50px;
     height: auto;
     display: block;
     margin-left: auto;
-    margin-top: 28px;
+    margin-top: 98px;
     margin-right: 1270px;
 }
 
@@ -278,12 +278,12 @@ a.blue{
     margin-right: 940px;
 }
 
-img.siema{
+img.siema {
     width: 150px;
     height: auto;
     display: block;
     margin-left: auto;
-    margin-top: 10px;
+    margin-top: 100px;
     margin-right: 1210px;
 }
 
@@ -298,7 +298,7 @@ img.siema{
     width: 800px;
     font-size: xx-large;
     margin-right: 1200px;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-left: 128px;
 }
 
@@ -312,4 +312,50 @@ img.siema{
     font-weight: bold;
     margin-left: 195px;
     margin-top: 100px;
+}
+
+
+.paragraphMarginCZT{
+    font-size: large;
+    font-weight: bold;
+    margin-left: 195px;
+    margin-top: 20px;
+}
+
+.titleRozdzialTRZY {
+    text-align: center;
+    width: 600px;
+    font-size: xx-large;
+    margin-left: 160px;
+    margin-top: 100px;
+}
+
+.paragraphMarginPIENC{
+    font-size: large;
+    font-weight: bold;
+    margin-left: 195px;
+    margin-top: 20px;
+}
+
+img.drogaNiebieskiego{
+    margin-left: 1300px;
+    margin-top: -300px;
+}
+
+img.dwanjdndwa{
+    margin-left: 600px;
+    margin-top: -1400px;
+    height: 50px;
+    width:auto;
+}
+
+img.przyklad{
+    margin-left: -300px;
+    margin-top: 0px;
+    height: 100px;
+    width:auto;
+}
+
+.divHeight{
+    height: 1000px;
 }
