@@ -31,18 +31,27 @@
     </nav>
 
     <div>
+        <p>
+            <a href="#1ProblemSkoczka">1. Problem skoczka</a>
+            <a href="#2MatmaAGraWSzachy">2. Związek matematyki z samą grą w szachy</a>
+            <a href="#3DrogaDoNieb">3. Droga od niebieskiego narożnika</a>
+            <a href="#4TwierdzenieOszachownicy">4. Twierdzenie o szachownicy</a>
+        </p>
+    </div>
+
+    <div>
         <h1 class="stronaGlowna">Strona główna</h1>
     </div>
 
     <div class="image">
-        <img class="animated-gif" src="wyprawakrula.gif">
+        <img class="animated-gif" src="resources/images/wyprawakrula.gif">
         <h1 class="problemSkoczka">Problem skoczka jako </br> przykład związków matematyki i szachów,<br> oraz przykład drogi otwartej skoczka szachowego na szachownicy 8x8</h1>
     </div>
 
-    <div>
+    <div id="1ProblemSkoczka">
         <h1 class="titleRozdzial">1. Problem skoczka</h1>
         <p class="paragraphMargin">Skoczek szachowy może poruszać się w sposób przedstawiony na rysunku:</p>
-        <img class="ruchskoczkaSzachy" src="skoczek-pola-ataku.png">
+        <img class="ruchskoczkaSzachy" src="resources/images/skoczek-pola-ataku.png">
         <p class="paragraphMargin">Problem skoczka szachowego, czyli zadanie polegające na obejściu skoczkiem
             <br>wszytkich pól planszy tak, żeby na każdym polu stanąć tylko i wyłącznie raz.
             <br>To co widzimy po prawej stronie to tak zwana ścieżka otwarta, czyli że skoczek 
@@ -57,12 +66,12 @@
             <br></p>
     </div>
     <div>
-        <img class="zamknietaDroga" src="zamknięta.png">
+        <img class="zamknietaDroga" src="resources/images/zamknięta.png">
         <h1 class="zamknietaDrogaTxt">Przykład drogi zamkniętej szkoczka szachowego na szachownicy 8x8</h1>
     </div>
     <div>
-        <img class="trzyxtrzyskoczek" src="3x3skoczek.png">
-        <img class="siema" src="4x4skoczek.png">
+        <img class="trzyxtrzyskoczek" src="resources/images/3x3skoczek.png">
+        <img class="siema" src="resources/images/4x4skoczek.png">
         <p class="cztxcztTxt">Oraz przykład ruchów dla szachownicy 4x4: <br><br></p>
     </div>
     </div>
@@ -71,7 +80,7 @@
             <br>nie istnieje rozwiązanie które zajmuje wszytkie pola szachownicy,
             <br>aby uzupełnić wszystkie pola szachownica musi mieć wymiary conajmniej 5x5!
         </p>
-    <div>
+    <div id="2MatmaAGraWSzachy">
         <h1 class="titleRozdzialDWA">2. Związek matematyki z samą grą w szachy</h1>
         <p class="paragraphMargin">Matematyka i szachy – mają ze sobą liczne powiązania, istnieje wprawdzie wiele zadań szachowych które można roziwązać matematycznymi metodami,
             <br>natomiast istota gry w szachy i jej teoretyczna struktura nie dały 
@@ -92,7 +101,7 @@
             </p>
             <p class="paragraphMarginCZT">Powyżej wymienionymi pojęciami zajmę się w następnych rozdziałach!</p>
     </div>
-    <div>
+    <div id="3DrogaDoNieb">
         <h1 class="titleRozdzialTRZY">3.  Droga od niebieskiego narożnika</h1>
         <p class="paragraphMargin">Ile jest dróg z niebieskiego kwadratu do północno-wschodniego punktu na grani? Oczywiście jedna: za każdym razem na północ,
             <br>więc zakodujemy ją jako 1111111. 
@@ -109,11 +118,39 @@
             <br>Bardziej wprawni Czytelnicy mogą obliczyć, że gdy szachownica jest rozmiaru n na n, to dróg takich jest
             <br> 
             <br></p>
+        <img class="dwanjdndwa" src="resources/images/2n1n2.png">
+        <p class="paragraphMargin"> Dla n = 3, liczba możliwych dróg wynosi 4, a ta liczba rośnie bardzo szybko, ponieważ dla n = 4, ta liczba wzrasta do 20</p>
+        <img class="drogaNiebieskiego" src="resources/images/drogaNiebieskiego.png">
+        <img class="przyklad" src="resources/images/przykład.png">
     </div>
-    <div class="divHeight">
-        <img class="drogaNiebieskiego" src="drogaNiebieskiego.png">
-        <img class="dwanjdndwa" src="2n1n2.png">
-        <img class="przyklad" src="przykład.png">
+
+    <div id="4TwierdzenieOszachownicy">
+        <h1 class="titleRozdzialCZT"> 4. Twierdzenie o szachownicy</h1>
+        <p class="paragraphMargin">Twierdzenie o szachownicy będące przykładem rozumowania topologiczno-kombinatorycznego
+            <br>wykorzystującego akcesoria szachowe, czyli planszę i bierki.
+            <br>Jest ono szczególnym przypadkiem dyskretnego odpowiednika twierdzenia o krzywej Jordana (ad. 1) 
+            <br>Twierdzenie pojawiło się jako zadanie do rozwiązania na stronie 32 „Kalejdoskopu matematycznego” Hugona Steinhausa.
+            <br>Sam autor twierdził, że pochodzi ono od jednego z lwowskich matematyków (najprawdopodobniej Włodzimierza Stożka).
+            <br>Dowód twierdzenia opublikowano w 1980 roku w magazynie Polskiego Towarzystwa Matematycznego Delta, 
+            <br>jednak nie był przekonujący; pełny dowód podał Wojciech Surówka w 1993 roku.</p>
+            <img class="krzywaJordana" src="resources/images/krzywaJordana.png">
+            <h1 class="krzywaJordanaDWA">ad. 1</h1>
+            <h1 class="krzywaJordanaOpis">Każda krzywa Jordana rozdziela płaszczyznę na dwa odrębne obszary i jest ich wspólnym brzegiem.
+                <br>
+                <br>PYTANIE!
+                <br>Który z zaznaczonych punktów należy do wnętrza wielokąta?
+            </h1>
+        <p class="paragraphMargin">
+            Jeśli:
+            <ul class="dottedMargin">
+                <li>pole w lewym górnym rogu i pole w prawym dolnym rogu szachownicy są czarne i, nie istnieje droga po białych
+                    <br>polach łącząca górną lub prawą krawędź szachownicy z dolną lub lewą krawędzią, po której mogłaby przejść wieża,</li>
+            </ul>
+            <p class="paragraphMargin">To:</p>
+            <ul class="dottedMargin">
+                <li>król może przejść po czarnych polach od lewego górnego do prawego dolnego rogu</li>
+            </ul>
+        </p>
     </div>
 
 </body>
