@@ -18,6 +18,58 @@
     z-index: 999;
 }
 
+.navbarChapters{
+    background-color: #303030;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 10px;
+    z-index: 999;
+}
+
+.active, .btn:hover {
+    background-color: #666;
+    color: white;
+  }
+
+.navbar_menuChapters{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.navbar_itemChapter{
+    height: 80px;
+    width: 800px;
+}
+
+.navbar_linksChapter{
+    color: #fff;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    text-align: center;
+    width: 120px;
+    text-decoration: none;
+    height: 100%;
+}
+
+.navbar_containerChapters{
+    display: flex;
+    justify-content:space-around;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
 .navbar_container{
     display: flex;
     justify-content: space-between;
@@ -47,6 +99,7 @@
 
 .navbar_item{
     height: 80px;
+    text-align: center;
 }
 
 .navbar_links{
